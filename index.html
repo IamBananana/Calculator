@@ -11,7 +11,7 @@
         <input id="display" readonly>
         <div id="keys">
             <button onclick="clearDisplay('C')" class="nonOperations">C</button>
-            <button onclick="appendToDisplay('?')" class="nonOperations">?</button>
+            <button onclick="squirt()" class="nonOperations">√</button>
             <button onclick="appendToDisplay('%')" class="nonOperations">%</button>
             <button onclick="appendToDisplay('/')" class="operations">/</button>
 
@@ -31,7 +31,7 @@
             <button onclick="appendToDisplay('+')" class="operations">+</button>
 
             <button onclick="appendToDisplay('0')" class="numbers" id="zero">0</button>
-            <button onclick="appendToDisplay(',')" class="numbers">,</button>
+            <button onclick="commaCheck()" class="numbers">,</button>
             <button onclick="calculate('=')" class="operations">=</button>
         </div>
     </div>

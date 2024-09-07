@@ -16,3 +16,13 @@ function calculate() {
         display.value = "Error";
     }
 }
+function commaCheck() {
+    if (display.value == "") {
+        display.value = "Brrrrr";
+    } else {
+        appendToDisplay(",");
+    }
+}
+function squirt() {
+    display.value = "Squirt";
+}
